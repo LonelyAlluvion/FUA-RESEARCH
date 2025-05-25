@@ -3,7 +3,7 @@
 ## Introduction
 This project investigates the spatial drivers and propagation mechanisms of urban air pollutant emissions across 619 Functional Urban Areas (FUAs) in Europe. We focus on four major pollutants—CO₂, NOx, SO₂, and PM₂.₅—and examine their relationships with 14 socioeconomic and spatial variables. The study integrates machine learning models with SHAP-based interpretability, geographically weighted regression (GWR) to capture spatial heterogeneity, and graph attention networks (GAT) to model inter-FUA influence. This multi-method approach enables a comprehensive understanding of both local emission patterns and spatial interaction effects across FUAs.
 
-##Highlights
+## Highlights
 Multi-Model Comparison, Covering Conventional and Advanced Algorithms
 Six regression models—XGBoost, CatBoost, Random Forest, Elastic Net, KNN, and Extra Trees Regressor—were developed in parallel to comprehensively evaluate the performance of different algorithms in forecasting urban emissions.
 
@@ -19,7 +19,7 @@ GWR models for PM₂.₅ and NOₓ generate local R² maps and spatial distribut
 Cutting-Edge Application—Graph Attention Networks (GTA)
 We apply the graph attention mechanism from graph neural networks to urban emissions modeling. By leveraging spatial adjacency and network “centrality” metrics, the GTA captures regional diffusion effects and structural influences among cities.
 
-##Policy Implications
+## Policy Implications
 Targeted, City-Specific Policies
 The SHAP and subgroup analyses help policymakers pinpoint the most sensitive emission-reduction drivers for each city type. For example:
 
